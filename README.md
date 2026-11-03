@@ -143,9 +143,3 @@ do not require API keys.
 - LLM-generated SQL can be wrong; use `-v` to inspect queries.
 - Outputs are informational and **not medical advice**.
 
-## Troubleshooting
-
-- `<PROVIDER>_API_KEY is not set` -> create `.env` from `.env.example` and match `LLM_PROVIDER` to the key you filled in.
-- `heart_disease.db not found` -> run `python -m scripts.build_databases`.
-- `MedicalWebSearchTool failed: TAVILY_API_KEY is not set` -> add the key to `.env`.
-- `No CSV found` -> check the files are in `data/raw/` or pass `--heart-csv` / `--cancer-csv`.
