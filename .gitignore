@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+# Datasets and generated databases are not committed (see README)
+data/raw/*.csv
+databases/*.db
+!data/raw/.gitkeep
+!databases/.gitkeep
